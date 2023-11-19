@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+ *{
+    font-family: Candara;
+ }
+ body{
+    background-image:linear-gradient(to right,#53736A,#6A8C69);
+ }
+ main{
+    border-radius: 5%;
+    box-shadow: 10px 10px 1px #0245548e;
+    background-color: #C2C0A6;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+ }
+ h1{
+    color: #024554;
+    text-align: center;
+    text-shadow: 5px 5px 5px #01323d;
+ }
+ h2{
+    color:#768125;
+ }
+ p{
+    text-align: justify;
+ }

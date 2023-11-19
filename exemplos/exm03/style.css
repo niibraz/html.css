@@ -1,0 +1,12 @@
+.botao:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#imagem{
+    height: 100px;
+    width: 100px;
+}
