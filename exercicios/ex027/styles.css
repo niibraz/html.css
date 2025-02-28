@@ -1,0 +1,17 @@
+body{
+    padding-bottom: 500px;
+}
+div{
+    margin-bottom: 10px;
+}
+
+div input,
+div label{
+    display: block;
+}
+.select_gender>select{
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Formularios em HTML</h2>
+    <form action="resgister.js" method="get">
+
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+        <div>
+            <input type="submit" value="ENVIAR">
+        </div>
+
+        <div class="select_gender">
+            <label for="">Genero</label>
+            <select name="gender" id="">
+                <option value="masc">Masculino</option>
+                <option value="fem" >Feminino</option>
+                <option value="undefined">Prefiro nao dizer</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="tetxarea" id="">Hi, u can speak here</textarea>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Preencha as suas informacoes</legend>
+                <label for="firstname">Nome: </label>
+                <input type="text" name="firstname" id="">
+
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="">
+            </fieldset>
+        </div>
+
+        <div>
+            <label for="flavor">Escolha o sabor: </label>
+            <input type="text" list="flavors" name="flavor">
+            <datalist id="flavors">
+                <option value="Cereja"></option>
+                <option value="Morango"></option>
+                <option value="Chocolate"></option>
+                <option value="Menta"></option>
+                <option value="Abacaxi"></option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="password">Senha: </label>
+            <input type="password" name="password" id="">
+        </div>
+
+        <div></div>
+    </form>
+</body>  
+</html>
