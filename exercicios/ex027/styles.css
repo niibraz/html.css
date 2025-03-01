@@ -15,3 +15,9 @@ div label{
     text-align: center;
 }
 
+.radio label,
+.radio input,
+.radio span{
+    display: inline-block;
+}
+

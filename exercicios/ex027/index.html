@@ -18,10 +18,7 @@
             <label for="age">Idade:</label>
             <input type="text" name="age">
         </div>
-        <div>
-            <input type="submit" value="ENVIAR">
-        </div>
-
+        
         <div class="select_gender">
             <label for="">Genero</label>
             <select name="gender" id="">
@@ -33,7 +30,7 @@
         <div>
             <textarea name="tetxarea" id="">Hi, u can speak here</textarea>
         </div>
-
+        
         <div>
             <fieldset>
                 <legend>Preencha as suas informacoes</legend>
@@ -56,13 +53,91 @@
                 <option value="Abacaxi"></option>
             </datalist>
         </div>
-
+        
         <div>
             <label for="password">Senha: </label>
             <input type="password" name="password" id="">
         </div>
+        
+        <div>
+            <label for="car_model">Escolha o modelo do seu carro: </label>
+            <div class="radio">
+                <input type="radio" value="bmw" name="car_model">
+                <label for="bmw">BMW</label>
 
-        <div></div>
+                <input type="radio" value="volkswagem" name="car_model">
+                <label for="volkswagem">VOLKSWAGEM</label>
+
+                <input type="radio" value="ford" name="car_model">
+                <label for="ford">FORD</label>
+
+                <input type="radio" value="audi" name="car_model">
+                <label for="audi">AUDI</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="optionals">Opcionais do carro:</label>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="big_tires">Pneus Grandes</label>
+
+                <input type="checkbox" name="optionals[]" value="body_kit">
+                <label for="body_kit">Body Kit</label>
+
+                <input type="checkbox" name="optionals[]" value="glass_painel">
+                <label for="glass_painel">Painel de Vidro</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="birthday">Data de nascimento</label>
+            <input type="date" name="birthday" >
+        </div>
+
+        <div>
+            <label for="image">Envie sua foto</label>
+            <input type="file" name="image">
+        </div>
+
+        <div>
+            <label for="cpf">Digite seu CPF</label>
+            <input type="number" name="cpf">
+        </div>
+
+        <div>
+            <label for="e_mail">Digite seu e-mail</label>
+            <input type="email" name="e_mail">
+        </div>
+
+        <div>
+            <label for="value">Digite algum valor:</label>
+            <input type="text" value="Sobrenome">
+        </div>
+
+        <div>
+            <p>Tente mudar o valor :</p>
+            <input type="text" value="nao precisa preencher" disabled>
+        </div>
+
+        <div>
+            <label for="currentjob">Digite sua profissao</label>
+            <input type="text" name="currentjob" placeholder=" Qual seu trabalho atual?" >
+        </div>
+
+        <div>
+            <label for="nome">Qual seu nome?</label>
+            <input type="text" required name="nome">
+        </div>
+
+        <!-- Botoes de envio e reset -->
+        <div>
+            <input type="reset" value="RESETAR">
+        </div>
+
+        <div>
+            <input type="submit" value="ENVIAR">
+        </div>
     </form>
 </body>  
 </html>
