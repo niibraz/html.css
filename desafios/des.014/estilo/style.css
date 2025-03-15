@@ -225,3 +225,110 @@ nav{
 .searchdomain_container input[type="submit"]:hover{
     opacity: 1;
 }
+
+/* CONTACT FORM */
+.contact_container{
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+.contact_container h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.contact_container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contact_container input,
+.contact_container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact_container textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact_container input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #21904d;
+    color: #e8e9ea;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #202b34;
+    padding: 20px;
+    text-align: center;
+    color: #70747a;
+}
+
+/* RESPONSIVIDADE */
+
+/* CELULARES*/
+
+@media only screen and (max-width: 570px){
+
+    /* NAVBAR */
+
+    .navbar_container img{
+        display: none;
+    }
+    .navbar_container a{
+        text-align: center;
+        font-size: 13px;
+    }
+
+
+    /* SERVICES */
+    .services_container ul{
+        flex-direction: column;
+    }
+
+    /* PLANS */
+     .plans_container{
+        flex-direction: column;
+        width: 100%;
+        row-gap: 40px;
+    }
+     .plan{
+        width: 90%;
+        max-width: 90%;
+     }
+
+     /* DOMAIN SEARCH */
+     .searchdomain_container h2{
+        font-size: 23px;
+     }
+     .services_container p{
+        font-size: 13px;
+     }
+     .contact_container input {
+        width: 400px;
+     }
+
+     /* CONTACT */
+     .contact_container h2{
+        font-size: 25px;
+     }
+     .contact_container p{
+        font-size: 16px;
+     }
+     .contact_container input{
+        width: 300px;
+     }
+     .contact_container textarea{
+        width: 300px;
+     }
+}
