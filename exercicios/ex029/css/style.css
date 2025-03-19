@@ -1,0 +1,106 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Flexbox */
+.flex{
+    display: flex;
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 20px;
+}
+
+/* Column */
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* Wrap */
+.wrap{
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
+}
+
+/* JustifyContent */
+.center{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content:center;
+}
+.center .box{
+    width: 50px;
+}
+
+/* aling itens */
+.aling_center,
+.flex_end,
+.strech{
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid rebeccapurple;
+}
+.aling_center .box,
+.flex_end .box,
+.strech .box{
+    width: 50px;
+}
+
+.aling_center{
+    align-items: center;
+}
+.flex_end{
+    align-items: end;
+}
+.strech{
+    align-items: stretch;
+}
+
+.strech .box{
+    height: auto;
+}
+
+/* Gap */
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid green;
+    gap: 10px;
+}
+.gap .box{
+    width: 32%;
+}
+
+/* order */
+.order{
+    display: flex;
+}
+#one{
+    order: 1;
+}
+#two{
+    order: 2;
+}
+#three{
+    order: 3;
+}
+
+/* auto alinhamento */
+.auto-alignment{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid blueviolet;
+}
+.auto-alignment .diferent{
+    align-self: center;
+}
