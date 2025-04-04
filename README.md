@@ -1,2 +1,2 @@
-# html.css
- Curso HTML5 e CSS3
+# HTML e CSS
+ Estudos, exercicios e desafios
